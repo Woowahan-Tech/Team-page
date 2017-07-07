@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color:#333333;
+    height: 80px;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-inline {
+    list-style: none;
+}
+
+.sec-title {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 30px; 
+    margin-bottom: 30px;
+    margin-top: 80px;
+    
+}
+
+img#top-logo {
+    margin: 10px;
+    width: 65px;
+}
+
+ul#top-menu {
+    float: right;
+    margin-top: 40px;
+}
+
+ul#top-menu li {
+    float: left;
+    font-size: 1.1em;
+    margin-right: 25px; 
+}
+
+ul#top-menu li a:hover {
+    color: #999999;
+    transition-duration: 0.5s;
+}
+
+section.home {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),  url("https://pbs.twimg.com/media/C0Iy8zAUQAAXbQn.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    height: 400px;
+    opacity:0.6;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    -moz-opacity:0.6;
+}
+
+h1.home-title {
+    text-align: center;
+    font-size: 4em;
+    line-height: 100px;
+}
+
+p.home-sub-title {
+    padding-top: 150px;
+    text-align: center;
+}
+
+/******** footer ********/
+
+footer {
+    background-color: #666666;
+    color: white;
+    font-family: '맑은고딕';
+    font-size: 0.8em;
+    height: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+p#bottom {
+    font-family: '맑은고딕';
+    font-size: 0.9em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+i {
+    color: #999999;
+    font-style: normal;
+    font-size: 0.5em;
+    margin: 0 15px;
+}

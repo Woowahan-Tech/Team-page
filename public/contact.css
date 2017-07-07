@@ -1,0 +1,47 @@
+section.contact{
+	background-color: white;
+	position: relative;
+}
+
+.contact-subTitle {
+	color: #666666;
+	margin-bottom:20px;
+}
+
+label{
+	color: #666666;
+}
+
+div.mail > input{
+	width: 300px;
+	1height: 200px;
+}
+
+.content-container {
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+	height: 550px;
+}
+.form-container {
+	float: left;
+	width: 50%;
+}
+
+.form-container .mail > input {
+	width: 100%;
+}
+.contact-img {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.message-input {
+	height: 190px;
+	margin-bottom: 15px;
+}
+/*div.mail{
+	position: absolute;
+	left: 300px;
+}*/

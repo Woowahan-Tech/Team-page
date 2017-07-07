@@ -1,0 +1,34 @@
+section.introduce {
+	background-color: #f8f4e3;
+	height: 500px;
+	padding-bottom: 10px;
+}
+.wrap-box {
+	width: 1120px;
+	height: 600px;
+
+	margin: 0 auto;
+	position: relative;
+}
+
+.introduce-img-frame {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.intro-box-wrap {
+	width: 920px;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	margin-top: 15px;
+}
+
+.intro-box {
+	width: 25%;
+}
+
+.intro-box span {
+	font-size: 20px;
+	font-weight: 600;
+}
